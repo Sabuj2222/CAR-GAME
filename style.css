@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  background: #444;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#game-area {
+  width: 400px;
+  height: 600px;
+  background: url('road.jpg') center/cover no-repeat;
+  position: relative;
+  overflow: hidden;
+  border: 4px solid white;
+}
+
+#car {
+  width: 50px;
+  position: absolute;
+  bottom: 20px;
+  left: 175px;
+  transition: 0.05s;
+}
